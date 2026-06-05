@@ -82,7 +82,7 @@ Restart your client. The tools appear automatically; verify with `/mcp` in Claud
 | Tool | Purpose |
 |---|---|
 | `list_ksis(theme?)` | Enumerate Key Security Indicators (~60 across 11 themes) |
-| `get_ksi(id)` | Full text of a KSI indicator by ID (e.g. `KSI-AFR-01`) |
+| `get_ksi(id)` | Full text of a KSI indicator by ID (e.g. `KSI-AFR-ADS`; legacy `KSI-AFR-03` also resolves via `fka`) |
 | `list_frrs(status?)` | Enumerate FedRAMP Requirements & Rules sections with effective status |
 | `get_frr_section(short_name)` | Full text of an FRR section (e.g. `ADS`, `CCM`) |
 | `get_definition(term_or_id)` | FedRAMP Definition lookup by ID, term, or alt |
@@ -97,8 +97,8 @@ Every response includes `_source`:
     "file": "FRMR.documentation.json",
     "upstream_commit": "a06fa8f9b103c0346895fb669b721962f5891bb6",
     "upstream_url": "https://github.com/FedRAMP/docs",
-    "last_updated": "2026-04-08",
-    "json_path": "/KSI/AFR/indicators/01"
+    "frmr_last_updated": "2026-04-08",
+    "json_path": "/KSI/AFR/indicators/KSI-AFR-ADS"
   }
 }
 ```

@@ -24,7 +24,8 @@ def get_ksi(id: str) -> dict:
     """Get full text of a single KSI indicator.
 
     Args:
-        id: The KSI indicator ID, e.g. 'KSI-AFR-01'.
+        id: The KSI indicator ID, e.g. 'KSI-AFR-ADS'. Legacy numeric IDs ('KSI-AFR-03')
+            also resolve via the indicator's `fka` field.
     """
     return tools.get_ksi(id)
 
