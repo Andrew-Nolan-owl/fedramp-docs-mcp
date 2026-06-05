@@ -38,9 +38,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/andrewnolan/fedramp-docs-mcp"
-Repository = "https://github.com/andrewnolan/fedramp-docs-mcp"
-Issues = "https://github.com/andrewnolan/fedramp-docs-mcp/issues"
+Homepage = "https://github.com/Andrew-Nolan-owl/fedramp-docs-mcp"
+Repository = "https://github.com/Andrew-Nolan-owl/fedramp-docs-mcp"
+Issues = "https://github.com/Andrew-Nolan-owl/fedramp-docs-mcp/issues"
 "FedRAMP Docs Upstream" = "https://github.com/FedRAMP/docs"
 
 [project.scripts]

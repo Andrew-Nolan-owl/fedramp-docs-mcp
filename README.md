@@ -17,7 +17,7 @@ When using AI assistants to analyze, scope, or write about FedRAMP 20x requireme
 `uvx` can install directly from a git URL — no PyPI required, no clone needed:
 
 ```bash
-uvx --from git+https://github.com/andrewnolan/fedramp-docs-mcp.git fedramp-docs-mcp --help
+uvx --from git+https://github.com/Andrew-Nolan-owl/fedramp-docs-mcp.git fedramp-docs-mcp --help
 ```
 
 (Install `uv` first if needed: `brew install uv` on macOS, or see https://docs.astral.sh/uv/.)
@@ -26,10 +26,10 @@ You can pin to a specific tag or commit for reproducibility:
 
 ```bash
 # pin to a tag
-uvx --from git+https://github.com/andrewnolan/fedramp-docs-mcp.git@v0.1.0 fedramp-docs-mcp
+uvx --from git+https://github.com/Andrew-Nolan-owl/fedramp-docs-mcp.git@v0.1.0 fedramp-docs-mcp
 
 # pin to a commit SHA
-uvx --from git+https://github.com/andrewnolan/fedramp-docs-mcp.git@<sha> fedramp-docs-mcp
+uvx --from git+https://github.com/Andrew-Nolan-owl/fedramp-docs-mcp.git@<sha> fedramp-docs-mcp
 ```
 
 ### Install from PyPI (planned, not yet available)
@@ -54,7 +54,7 @@ Add to your MCP client config (e.g., `~/.claude.json`):
       "command": "uvx",
       "args": [
         "--from",
-        "git+https://github.com/andrewnolan/fedramp-docs-mcp.git",
+        "git+https://github.com/Andrew-Nolan-owl/fedramp-docs-mcp.git",
         "fedramp-docs-mcp"
       ]
     }
@@ -132,7 +132,7 @@ Run `refresh` when:
 ## Development
 
 ```bash
-git clone https://github.com/andrewnolan/fedramp-docs-mcp.git
+git clone https://github.com/Andrew-Nolan-owl/fedramp-docs-mcp.git
 cd fedramp-docs-mcp
 uv venv
 source .venv/bin/activate
