@@ -1,0 +1,9 @@
+{
+  "upstream_repo": "FedRAMP/docs",
+  "upstream_url": "https://github.com/FedRAMP/docs",
+  "upstream_commit": "a06fa8f9b103c0346895fb669b721962f5891bb6",
+  "upstream_raw_url": "https://raw.githubusercontent.com/FedRAMP/docs/a06fa8f9b103c0346895fb669b721962f5891bb6/FRMR.documentation.json",
+  "fetched_at": "2026-06-05T00:00:00Z",
+  "frmr_version": "0.9.43-beta",
+  "frmr_last_updated": "2026-04-08"
+}
